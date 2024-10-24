@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPath": "/gatape-api",
+        "headers": {
+            "Authorization": {
+                "equalTo": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCIsImtpZCI6IjhjZHRyeWMzLTVjemVmLTRjemVyOC1iY2RjLTJ6cmUzNDRlIn0.ewogICJpYXQiOiAxNjg2NjYwNjEwLAogICJleHAiOiAxNjg2NjYyNDEwMDAsCiAgImp0aSI6ICJBVmFkZGZnZ2RmZ0FRIiwKICAiaXNzIjogIm9rYXBpMiIsCiAgInN1YiI6ICJjbGlyZCIsCiAgInNjb3BlIjogWwogICAgImFwaS1wcmQ6cGhvdG8iLAogICAgImFwaS1wcmQ6YWRtaW4iCiAgXSwKICAiY2xpZW50X2lkIjogImNsaS1jMS1wcmQiCn0.pr6kASPTer_ksSCshZ3zSdkGPisc8VpEMDZASG54WY3Y4"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": "with All scope"
+    }
+}

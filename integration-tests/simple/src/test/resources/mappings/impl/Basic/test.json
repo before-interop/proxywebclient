@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPath": "/api/basic",
+        "basicAuthCredentials": {
+            "username": "username",
+            "password": "password"
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": "OK for Basic method"
+    }
+}

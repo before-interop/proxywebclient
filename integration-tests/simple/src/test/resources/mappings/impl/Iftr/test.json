@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPath": "/iftr-api",
+        "headers": {
+            "Authorization": {
+                "matches": "Bearer [^.]+\\.[^.]+\\.[^.]+"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": "OK for Iftr method"
+    }
+}

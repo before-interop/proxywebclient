@@ -1,0 +1,38 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPath": "/api/none",
+        "headers": {
+            "x-doudou": {
+                "equalTo": "doudou"
+            },
+            "x-uuid": {
+                "matches": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+            },
+            "x-overwrite": {
+                "equalTo": "overwrite"
+            },
+            "x-pass": {
+                "equalTo": "doudou"
+            },
+            "x-request-id": {
+                "equalTo": "id of the request"
+            }
+        },
+        "queryParameters": {
+            "d": {
+                "equalTo": "o"
+            },
+            "u": {
+                "equalTo": "d"
+            },
+            "o": {
+                "equalTo": "u"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": "OK for None method"
+    }
+}

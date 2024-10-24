@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/redirect-ok"
+    },
+    "response": {
+        "status": 200,
+        "body": "OK for redirect"
+    }
+}

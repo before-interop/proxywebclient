@@ -1,0 +1,5 @@
+proxy:
+  partners: |
+    swapi:
+      method: None
+      baseUrl: https://swapi.dev/api

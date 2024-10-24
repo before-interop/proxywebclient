@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/redirect"
+    },
+    "response": {
+        "status": 302,
+        "transformers": [
+            "response-template"
+        ],
+        "headers": {
+            "Location": "http://{{request.headers.Host}}/redirect-ok"
+        }
+    }
+}

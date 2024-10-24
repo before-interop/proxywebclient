@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPath": "/test/none"
+    },
+    "response": {
+        "status": 200,
+        "body": "OK for None method"
+    }
+}

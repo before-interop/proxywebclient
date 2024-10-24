@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPath": "/bouygues-api",
+        "headers": {
+            "Authorization": {
+                "equalTo": "Bearer at-3f2fd75d-2daa-4aa1-b43c-2bf7726e4865"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": "OK for Bouygues method"
+    }
+}

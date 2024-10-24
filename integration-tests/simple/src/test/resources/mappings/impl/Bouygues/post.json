@@ -1,0 +1,26 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPath": "/bouygues-api",
+        "headers": {
+            "Authorization": {
+                "equalTo": "Bearer at-3f2fd75d-2daa-4aa1-b43c-2bf7726e4865"
+            }
+        },
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"name\":\"doudou\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true,
+                "ignoreExtraArrayItems": true
+            }
+        ]
+    },
+    "response": {
+        "status": 201,
+        "body": "{\"name\":\"doudou\"}",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

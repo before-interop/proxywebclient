@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/basic",
+    "headers": {
+      "X-DOUDOU": {
+        "equalTo": "doudou"
+      },
+      "Authorization": {
+        "matches": "Basic .*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": "OK for Basic method"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/upload",
+      "headers": {
+        "Content-Type": {
+          "contains": "multipart/form-data"
+        }
+      },
+      "bodyPatterns": [
+        {
+          "matches": ".*content-disposition:\\s*form-data;\\s*name=\"file\".*"
+        },
+        {
+          "matches": ".*content-disposition:\\s*form-data;\\s*name=\"data\".*"
+        }
+      ]
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "jsonBody":
+      {
+        "status": "OK"
+      }
+
+    }
+}

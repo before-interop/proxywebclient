@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPath": "/altitudeOsa-api",
+        "headers": {
+            "Authorization": {
+                "matches": "Bearer eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwidHlwIjoiSldUIn0.g4drg0rzAy9PQKOuBOqWotl4i8OAK6OAdAFyjoUBAnG3bSVSCyQesw.rJDLGQf6wQSKjS6mg1XxYw.XV8Jmd64g1yc-eZI8D2-C-dzUDliolX_q_4kdDFn4jeNIicRSFU4Tm21waiAjMVPUa_wAD0IGUaA2zBcSfoMwTpTY6J7FZVLmnb0Oc3mAOvyvKwNkMb_k2NFy3xrGlEBxDrce1FZs4sDlhp4heUB9IUeB0Qcf739b4tPdK68P1AJ1g6RwiQBVZKeLCw_f1zRBcI2rcWjcLWcC5oqZoE2iwvX3Hby9ixZKmwZFN2dpqe5_EcYc7PEI3Tf86Xe71FI_9AUDOxcEUouE0exQ5LBu50SoZinWu4hmq4SRtf3URknOKXzKTKVQbBVDprkG9cdAiVD5z3FrVJJjDbB4UMnTw.XYCip62vJ3TlxBEhmooBcQ"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": "OK for AltitudeOsa method"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPath": "/tdf-api",
+        "headers": {
+            "Authorization": {
+                "matches": "[^.]+\\.[^.]+\\.[^.]+"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": "OK for Tdf method"
+    }
+}
